@@ -6,10 +6,11 @@ const Header = () => {
         <nav className='header'>
             {/* <img src={logo} alt="" /> */}
             <div>
-                <Link to="/">Shop</Link>
-                <Link to="/orders">Orders</Link>
-                <Link to="/inventory">Inventory</Link>
-                <Link to="/login">Login</Link>
+                <Link to="/">Home</Link>
+                <Link to="/review">Order Review</Link>
+                <Link to="/grandpa">Grandpa</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
             </div>
         </nav>
     );
